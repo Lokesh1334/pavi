@@ -1,0 +1,121 @@
+body{
+    background-color: blue;
+
+    
+} 
+
+  nav{
+    
+    background-color:black;
+    width: 165%;
+    padding: 5px;
+    height: 100px;
+    position: relative;
+}
+.menu{
+    display: none;
+    margin-left: 1600px;
+    margin-top: 40px;
+    position: absolute;
+}
+ul{
+    
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+  width: 1000px;
+}
+li{
+
+    float: left;
+
+}
+a{
+    display: block;
+     text-decoration: double;
+    color: white;
+    font-size: 30px;
+    padding: 0px 20px;
+    margin-left: 20px;
+    text-align: center;
+
+  }
+
+ 
+.image{    
+
+    width: 550px;
+    height: 300px;
+    display: block;
+    margin-left: 10px;
+    margin-top: 20px;
+    position: absolute;
+}
+.ima{
+    width: 550px;
+    height: 300px;
+    display: block;
+    margin-left: 1200px;
+    margin-top: 20px;
+    position: absolute;
+}
+.img{
+    width: 550px;
+    height: 300px;
+    display: block;
+    margin-left: 600px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+@media screen and (max-width:475px){
+    body{
+        background-color: red;
+        
+    }
+    .menu{
+        display: block;
+        margin-left: 60%;
+        margin-top: -15px;
+        position: absolute;
+    }
+
+    .image{
+        width: 80%;
+        height: 200px;
+        margin-top: 20px;
+        margin-left: 10px;
+        display: block;
+        
+    }
+    .ima{
+    width: 80%;
+    height: 200px;
+    margin-top: 450px;
+    margin-left: 10px;
+    display: block;
+    
+}
+.img{
+    width: 80%;
+    height: 200px;
+    margin-top: 240px;
+    margin-left: 10px;
+    display: block;
+}
+nav{
+    background-color:black;
+    width: 80%;
+    padding: 5px;
+    height: 100px;
+}
+a{
+    display: none;
+    color: white;
+    font-size: 30px;
+    padding: 0px 20px;
+    margin-left: 20px;
+
+  }
+}
+
