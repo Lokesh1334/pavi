@@ -7,7 +7,7 @@ body{
   nav{
     
     background-color:black;
-    width: 170%;
+    width: 129%;
     padding: 5px;
     height: 100px;
     position: relative;
@@ -44,7 +44,7 @@ a{
  
 .image{    
 
-    width: 550px;
+    width: 40%;
     height: 350px;
     display: block;
     margin-left: 10px;
@@ -52,7 +52,7 @@ a{
     position: absolute;
 }
 .ima{
-    width: 550px;
+    width: 40%;
     height: 350px;
     display: block;
     margin-left: 1200px;
@@ -60,7 +60,7 @@ a{
     position: absolute;
 }
 .img{
-    width: 550px;
+    width: 40%;
     height: 350px;
     display: block;
     margin-left: 600px;
